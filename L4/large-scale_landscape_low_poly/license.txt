@@ -1,0 +1,11 @@
+Model Information:
+* title:	Large-scale landscape low poly
+* source:	https://sketchfab.com/3d-models/large-scale-landscape-low-poly-f34fa514acec48b1acaf1d08c888ce04
+* author:	TastefullBrick (https://sketchfab.com/tastefullbrick)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Large-scale landscape low poly" (https://sketchfab.com/3d-models/large-scale-landscape-low-poly-f34fa514acec48b1acaf1d08c888ce04) by TastefullBrick (https://sketchfab.com/tastefullbrick) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
