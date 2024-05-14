@@ -1,0 +1,36 @@
+wwww<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lesson 1</title>
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <script src="game.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="//unpkg.com/aframe-extras@4.1.2/dist/aframe-extras.min.js"></script>
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+
+  
+</head>
+
+<body>
+  <a-scene physics="gravity: -9.8; restitution: 0.2; friction: 0.8;">  
+
+    <a-entity position="0 2 0">
+    <a-camera kinematic-body="radius: 3" position=".41 4.5 -16.43 " wasd-controls="acceleration: 225"></a-camera>
+  </a-entity>
+    
+    
+
+    <a-plane static-body color="green" rotation=" -90 0 0" width="50" height="50"></a-plane>
+    <a-sphere dynamic-body radius=".7" color="green" position=".41 4.5 -16.43"></a-sphere>
+    <a-gltf-model src="football_field/scene.gltf" scale="0.5 0.5 0.5" position="0 1.5 0"></a-gltf-model>
+    <a-box static-body opacity="0" color="blue" width="23" height="10" depth="0.5" position="0.6 4.3 -12"></a-box>
+    <a-box static-body opacity="0" color="blue" width="23" height="10" depth="0.5" position="0.6 4.3 -25"></a-box>
+    <a-box static-body opacity="0" color="blue" width="20" height="10" depth="0.5" position="12.5 4.3 -19.7" rotation="0 -89 0" scale=".87 1 1"></a-box>
+    <a-box static-body opacity="0" color="blue" width="20" height="10" depth="0.5" position="-11 4.3 -19.7" rotation="0 -89 0" scale=".87 1 1"></a-box>
+
+
+  </a-scene> 
+</body>
+
+</html>
